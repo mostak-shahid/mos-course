@@ -1,0 +1,60 @@
+.mos-course-wrapper {
+	margin-bottom: 30px;
+	border: 1px solid #f1f2f2;
+}
+.mos-course-wrapper:after {
+    display: table;
+    width: 100%;
+    content: "";
+}
+.mos-course-code, 
+.mos-course-title {
+    background-color: #4c494c;
+    text-align: center;
+    font-size: 22px;
+    padding: 5px;
+}
+.mos-course-title {
+    color: #ffffff;
+}
+.mos-course-code {
+    color: #eb9d41;
+}
+.mos-course-image img {
+	width: 100%;
+	height: auto;
+}
+.mos-course-content {
+	padding: 15px;
+}
+.mos-course-link,
+.mos-course-countdown-wrap {
+	padding: 15px;
+	margin: 0 -15px;
+	display: table;
+	width: calc(100% + 30px);
+}
+.mos-course-link .course-link {
+	text-align: center;
+	background-color: #f1f2f2;
+	font-size: 16px;	
+	padding: 10px;
+}
+.mos-course-link .course-link,
+.mos-course-countdown-wrap .mos-course-countdown {
+	width: calc( 50% - 30px );
+	float: left;
+	margin: 0 15px;
+	display: block;
+}
+.mos-course-link .course-link:hover {
+	background-color: #00b2e0;
+	color: #ffffff;
+}
+.mos-course-countdown-wrap .mos-course-countdown:last-child {
+	text-align: right;
+}
+.timeTo.timeTo-white div {
+	background: #00b2e0;
+	color: #ffffff;
+}

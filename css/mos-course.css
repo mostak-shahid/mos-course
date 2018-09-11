@@ -1,0 +1,18 @@
+.unit {
+	display: table;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.grid {
+	display: table-cell;
+	padding: 0 15px;
+}
+.grid.action {
+	text-align: right;
+}
+.link-remove {
+	display: block;
+	margin: 0 auto;
+	color: #dc3232;
+	text-decoration: none;
+}
